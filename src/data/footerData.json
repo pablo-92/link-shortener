@@ -7,22 +7,22 @@
 
     "Social": {
         "Facebook": {
-            "icon": "assets/images/icon-facebook.svg",
+            "icon": "public/images/icon-facebook.svg",
             "web": "https://www.facebook.com"
         },
 
         "Twitter": {
-            "icon": "assets/images/icon-twitter.svg",
+            "icon": "public/images/icon-twitter.svg",
             "web": "https://www.twitter.com"
         },
 
         "Pinterest": {
-            "icon": "assets/images/icon-pinterest.svg",
+            "icon": "public/images/icon-pinterest.svg",
             "web": "https://www.pinterest.nz"
         },
 
         "Instagram": {
-            "icon": "assets/images/icon-instagram.svg",
+            "icon": "public/images/icon-instagram.svg",
             "web": "https://www.instagram.com"
         }
     }

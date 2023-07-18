@@ -38,7 +38,7 @@ export default function App() {
                     <section className="hero">
                         <div className="img-container">
                             <img
-                                src="src/assets/images/illustration-working.svg"
+                                src="/public/images/illustration-working.svg"
                                 alt="hero-image"
                             />
                         </div>
@@ -91,7 +91,7 @@ export default function App() {
                             <div className="card brand-recognition">
                                 <div className="icon-container">
                                     <img
-                                        src="src/assets/images/icon-brand-recognition.svg"
+                                        src="/public/images/icon-brand-recognition.svg"
                                         alt="card icon"
                                     />
                                 </div>
@@ -107,7 +107,7 @@ export default function App() {
                             <div className="card detailed-records">
                                 <div className="icon-container">
                                     <img
-                                        src="src/assets/images/icon-detailed-records.svg"
+                                        src="/public/images/icon-detailed-records.svg"
                                         alt="card icon"
                                     />
                                 </div>
@@ -122,7 +122,7 @@ export default function App() {
                             <div className="card fully-customizable">
                                 <div className="icon-container">
                                     <img
-                                        src="src/assets/images/icon-fully-customizable.svg"
+                                        src="/public/images/icon-fully-customizable.svg"
                                         alt="card icon"
                                     />
                                 </div>

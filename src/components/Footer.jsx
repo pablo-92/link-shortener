@@ -17,7 +17,7 @@ export default function Footer() {
     let social = Object.entries(footerData.Social).map(
         ([name, { icon, web }]) => (
             <a key={name} href={web} target="_blank" rel="noreferrer">
-                <img src={`/src/${icon}`} alt={`${name} icon`} />
+                <img src={`/${icon}`} alt={`${name} icon`} />
             </a>
         )
     );
@@ -27,7 +27,7 @@ export default function Footer() {
             <div className="max-width footer-container">
                 <img
                     className="logo"
-                    src="src/assets/images/logo-light.svg"
+                    src="/public/images/logo-light.svg"
                     alt="Shortly logo"
                 />
                 <section className="footer-menu-container">

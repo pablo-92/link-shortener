@@ -11,7 +11,7 @@ export default function Nav() {
                     <section className="nav-section">
                         <a href="#">
                             <img
-                                src="src/assets/images/logo-dark.svg"
+                                src="/public/images/logo-dark.svg"
                                 alt="Shortly logo"
                             />
                         </a>
@@ -20,7 +20,7 @@ export default function Nav() {
                             onClick={() => setOpened(!opened)}
                             type="button"
                             title="Open menu">
-                            <img src="src/assets/images/icon-menu.svg" alt="" />
+                            <img src="/public/images/icon-menu.svg" alt="" />
                         </button>
 
                         <menu className="menu-desktop">
