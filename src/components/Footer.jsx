@@ -27,7 +27,7 @@ export default function Footer() {
             <div className="max-width footer-container">
                 <img
                     className="logo"
-                    src="/public/images/logo-light.svg"
+                    src="/images/logo-light.svg"
                     alt="Shortly logo"
                 />
                 <section className="footer-menu-container">
