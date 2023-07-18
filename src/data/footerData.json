@@ -1,0 +1,30 @@
+{
+    "Menu": {
+        "Features": ["Link Shortening", "Branded Links", "Analytics"],
+        "Resources": ["Blog", "Developers", "Support"],
+        "Company": ["About", "Our Team", "Careers", "Contact"]
+    },
+
+    "Social": {
+        "Facebook": {
+            "icon": "assets/images/icon-facebook.svg",
+            "web": "https://www.facebook.com"
+        },
+
+        "Twitter": {
+            "icon": "assets/images/icon-twitter.svg",
+            "web": "https://www.twitter.com"
+        },
+
+        "Pinterest": {
+            "icon": "assets/images/icon-pinterest.svg",
+            "web": "https://www.pinterest.nz"
+        },
+
+        "Instagram": {
+            "icon": "assets/images/icon-instagram.svg",
+            "web": "https://www.instagram.com"
+        }
+    }
+
+}

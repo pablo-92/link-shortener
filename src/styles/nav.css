@@ -1,0 +1,115 @@
+nav {
+    width: 100%;
+    background-color: var(--white);
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 1em var(--dark-violet);
+    z-index: 10;
+}
+
+.nav-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-btn {
+    width: 30px;
+    height: 30px;
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.menu-mobile {
+    width: 100%;
+    background-color: var(--dark-violet);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    transition: top 0.3s ease;
+    z-index: 9;
+}
+
+.menu-mobile div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.account {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid var(--grayish-violet);
+}
+
+.menu-mobile div li {
+    color: var(--white);
+    display: flex;
+}
+
+.menu-desktop {
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    .nav-section {
+        gap: 25px;
+    }
+
+    .menu-mobile {
+        display: none;
+    }
+
+    .menu-btn {
+        display: none;
+    }
+
+    .menu-desktop {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .menu-desktop div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .menu-desktop-li {
+        color: var(--grayish-violet);
+    }
+
+    .menu-desktop-li:hover {
+        color: var(--dark-violet);
+        cursor: pointer;
+    }
+
+    .account-desktop {
+        margin-left: auto;
+    }
+}
