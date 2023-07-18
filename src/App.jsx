@@ -38,7 +38,7 @@ export default function App() {
                     <section className="hero">
                         <div className="img-container">
                             <img
-                                src="/public/images/illustration-working.svg"
+                                src="./public/images/illustration-working.svg"
                                 alt="hero-image"
                             />
                         </div>
