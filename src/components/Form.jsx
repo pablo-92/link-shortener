@@ -18,7 +18,7 @@ export default function Form(props) {
                         border: errors.link ? "3px solid var(--red)" : "",
                     }}
                     type="url"
-                    placeholder="Shorten a link here..."
+                    placeholder="https://www.example.com"
                     {...register("link", {
                         required: "Please add a link",
                     })}
